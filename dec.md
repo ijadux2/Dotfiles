@@ -106,7 +106,6 @@ tags: [programming, passion]
 
 - [Dotfyle](https://dotfyle.com/)
 - [Neovim GitHub](https://github.com/neovim/neovim)
-- [My Config](https://github.com/ijadux2/nvim-for-me/)
 
 ### Emacs god {tsoding}
 
@@ -162,60 +161,3 @@ tags: [programming, passion]
 - gtk (c, vala, rust)
 
 ## Tmux and Terminal Multiplexer **waste**
-
-## Valentine Calendar 2026
-
-Valentine's Week in 2026 runs from **February 7** to **February 14**,
-culminating in Valentine's Day. Each day of this week celebrates a unique
-aspect of love and affection.
-
----
-
-| **Valentine's Week Observance** | **Date**    | **Day**   |
-| ------------------------------- | ----------- | --------- |
-| Rose Day                        | February 7  | Saturday  |
-| Propose Day                     | February 8  | Sunday    |
-| Chocolate Day                   | February 9  | Monday    |
-| Teddy Day                       | February 10 | Tuesday   |
-| Promise Day                     | February 11 | Wednesday |
-| Hug Day                         | February 12 | Thursday  |
-| Kiss Day                        | February 13 | Friday    |
-| Valentine's Day                 | February 14 | Saturday  |
-
----
-
-### Significance of Each Day
-
-- **Rose Day (February 7)**: A day to express feelings through roses, with
-  different colors symbolizing various sentiments.
-- **Propose Day (February 8)**: Couples often take this day to express their
-  love and intentions for the future.
-- **Chocolate Day (February 9)**: Sharing chocolates is a sweet way to convey
-  love and affection.
-- **Teddy Day (February 10)**: Gift-giving includes teddy bears, symbolizing
-  warmth and love.
-- **Promise Day (February 11)**: Partners make promises to each other,
-  emphasizing commitment.
-- **Hug Day (February 12)**: A simple yet profound hug can express care and
-  love.
-- **Kiss Day (February 13)**: This day celebrates intimacy and affection
-  through kisses.
-- **Valentine's Day (February 14)**: The grand finale, celebrated globally
-  through various expressions of love, including cards, gifts, and quality
-  time together.
-
----
-
-make webpages for naina
-evry day !!
-
-Valentine websites
-
-1. <https://valentine-ochre-omega.vercel.app/>
-1. <https://proposal-ruby-eight.vercel.app/>
-1. <https://c312-2409-408a-1b80-c6d-d798-be3d-d9a8-1b56.ngrok-free.app/>
-   **source code**
-1. <https://8fcc-2409-408a-2c46-5709-4b63-8167-66d3-e0d5.ngrok-free.app/>
-   **source code**
-1. <https://a916-2409-408a-2c46-5709-4b63-8167-66d3-e0d5.ngrok-free.app/>
-   **source code**
