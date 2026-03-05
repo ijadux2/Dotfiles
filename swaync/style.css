@@ -1,0 +1,176 @@
+/*
+ * Catppuccin Mocha theme for swaync
+ */
+
+@define-color noti-bg rgba(30, 30, 46, 0.9);
+@define-color noti-bg-alt rgba(24, 24, 37, 0.9);
+@define-color noti-border rgba(180, 190, 254, 0.8);
+@define-color noti-bg-hover rgba(49, 50, 68, 0.9);
+@define-color noti-bg-focus rgba(49, 50, 68, 0.9);
+@define-color noti-close-bg rgba(243, 139, 168, 0.8);
+@define-color noti-close-bg-hover rgba(243, 139, 168, 1.0);
+@define-color text-color rgba(205, 214, 244, 1.0);
+@define-color text-color-disabled rgba(127, 132, 156, 1.0);
+@define-color bg-selected rgba(137, 180, 250, 0.8);
+
+* {
+  font-family: "JetBrains Mono Nerd Font", monospace;
+  font-size: 14px;
+}
+
+.notification-row {
+  outline: none;
+}
+
+.notification-row:focus,
+.notification-row:hover {
+  background: @noti-bg-hover;
+}
+
+.notification-background {
+  background: @noti-bg;
+  border: 1px solid @noti-border;
+  border-radius: 12px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.notification-close-button {
+  background: @noti-close-bg;
+  border: none;
+  border-radius: 6px;
+  color: @text-color;
+  margin: 4px;
+  padding: 4px;
+}
+
+.notification-close-button:hover {
+  background: @noti-close-bg-hover;
+}
+
+.notification-content {
+  background: transparent;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.notification-title {
+  color: @text-color;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.notification-body {
+  color: @text-color;
+  font-size: 12px;
+}
+
+.control-center {
+  background: @noti-bg;
+  border: 1px solid @noti-border;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+.control-center-list-placeholder {
+  color: @text-color-disabled;
+}
+
+.floating-notifications.background .notification-row .notification-background {
+  background: @noti-bg;
+  border: 1px solid @noti-border;
+  border-radius: 12px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.widget-title {
+  color: @text-color;
+  font-weight: bold;
+  margin: 12px 0 6px 0;
+}
+
+.widget-dnd {
+  background: @noti-bg-alt;
+  border: 1px solid @noti-border;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.widget-dnd-toggle {
+  background: @bg-selected;
+  border: none;
+  border-radius: 6px;
+  color: @text-color;
+  padding: 6px 12px;
+}
+
+.widget-dnd-toggle:checked {
+  background: @bg-selected;
+}
+
+.widget-mpris {
+  background: @noti-bg-alt;
+  border: 1px solid @noti-border;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.widget-mpris-title {
+  color: @text-color;
+  font-weight: bold;
+}
+
+.widget-mpris-artist {
+  color: @text-color-disabled;
+  font-size: 12px;
+}
+
+.widget-buttons-grid {
+  background: @noti-bg-alt;
+  border: 1px solid @noti-border;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.widget-buttons-grid button {
+  background: @bg-selected;
+  border: none;
+  border-radius: 6px;
+  color: @text-color;
+  margin: 4px;
+  padding: 8px 12px;
+}
+
+.widget-buttons-grid button:hover {
+  background: @noti-bg-hover;
+}
+
+.widget-volume {
+  background: @noti-bg-alt;
+  border: 1px solid @noti-border;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.widget-backlight {
+  background: @noti-bg-alt;
+  border: 1px solid @noti-border;
+  border-radius: 8px;
+  margin: 6px;
+  padding: 12px;
+}
+
+.top-bar-title {
+  color: @text-color;
+  font-weight: bold;
+}
+

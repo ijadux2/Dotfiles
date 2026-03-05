@@ -1,0 +1,110 @@
+# Kitty Terminal Configuration - Enhanced with Sessions
+font_size        16.0
+
+confirm_os_window_close 0
+# Cursor Configuration
+cursor_shape     block
+cursor_blink_interval 1.5
+cursor_stop_blinking_after 15.0
+cursor_trail 10
+cursor_trail_delay 0.1
+cursor_beam_thickness 0.25
+gpu True
+
+# Window Configuration
+#window_padding_width 4
+window_margin_width 6
+draw_minimal_borders no
+
+# Tab Bar - Beautiful Powerline Style
+tab_bar_min_tabs 1
+tab_bar_style hidden 
+#powerline
+tab_bar_edge  top
+#tab_powerline_style round
+active_tab_font_style   bold
+inactive_tab_font_style normal
+
+# Scrollback
+scrollback_lines 20000
+scrollback_pager_history_size 1000
+scrollback_fill_enlarged_gap no
+
+listen_on unix:/tmp/mykitty
+
+# Shell
+#shell /usr/bin/pwsh
+#shell /usr/bin/nu
+
+shell /usr/bin/zsh
+
+# Background and Transparency
+background_opacity 0.85
+dynamic_background_opacity yes
+
+# Performance
+repaint_delay 10
+input_delay 3
+sync_to_monitor yes
+resize_in_steps yes
+
+# Mouse
+mouse_hide_when_typing yes
+focus_follows_mouse yes
+pointer_shape_when_grabbed arrow
+
+# URL and File Detection
+url_prefixes http https file ftp ftps git ssh
+detect_urls yes
+url_style curly
+
+# Window Management
+remember_window_size yes
+initial_window_width 1200
+initial_window_height 800
+initial_window_width 120c
+initial_window_height 60c
+
+# Advanced Features
+enable_ligatures cursor
+shell_integration disabled
+allow_remote_control yes
+listen_on unix:/tmp/kitty
+
+# Layouts
+enabled_layouts tall,fat,grid,stack,splits,horizontal,vertical
+default_layout tall
+
+# Enhanced Key Bindings
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+v paste_from_clipboard
+map ctrl+shift+s paste_from_selection
+map ctrl+shift+z toggle_audio_bell
+map super+shift+p launch --allow-remote-control ~/.config/kitty/kitty-command-palete.sh
+
+# Window Splits
+map super+shift+enter new_tab
+map super+shift+o launch --location=vsplit --cwd=current
+map super+shift+q close_tab
+
+# Useful Launch Shortcuts
+map super+shift+enter launch --type=tab --cwd=current
+map super+shift+i launch --type=tab --cwd=current btop --force-utf
+map super+shift+v launch --type=tab --cwd=current nvim .
+map super+shift+y launch --type=tab --cwd=current yazi
+#map shift+v launch --type=tab --cwd=current zi
+
+# OS Integration
+linux_display_server auto
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Mocha
+include ./current-theme.conf
+# END_KITTY_THEME
+
+# BEGIN_KITTY_FONTS
+font_family      family='ZedMono Nerd Font' postscript_name=ZedMonoNF
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
