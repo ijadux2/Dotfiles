@@ -1,4 +1,4 @@
-# Dotfile
+# Dotfiles and config
 
 ## for theme and cursor packs
 
