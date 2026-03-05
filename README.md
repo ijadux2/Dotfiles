@@ -1,7 +1,4 @@
----
-title: Dotfiles
-owerner: ijadux2
----
+# Dotfile
 
 ## fastfetch
 
