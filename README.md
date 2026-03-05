@@ -1,5 +1,14 @@
 # Dotfile
 
+## for theme and cursor packs
+
+> [!note]  
+> for my personal
+> Cursor: [TAR-21](https://store.kde.org/p/2165083)
+> Icons-pack: [Catppuccin-SE](https://github.com/ljmill/catppuccin-icons)
+> Gtk-themes: [gtk](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme)
+> Gtk-themes: [gtk2](https://www.gnome-look.org/s/Gnome/p/1996672)
+
 ## fastfetch
 
 - archlinux and minimal config
