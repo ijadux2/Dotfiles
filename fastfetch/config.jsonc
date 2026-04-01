@@ -1,50 +1,54 @@
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "arch_small", // search for logos: fastfetch --list-logos or --print-logos
+    "type": "auto",
+    "source": "/home/jadu/.config/fastfetch/last.png",
+    "position": "left",
+    "width": 15,
+    "height": 4,
     "padding": {
-      "top": 1
-    },
+      "top": 1,
+      "left": 1,
+      "right": 1,
+      "bottom": 0
+    }
   },
   "display": {
-    "separator": "  "
+    "stat": false,
+    "size": {
+      "binaryPrefix": "jedec"
+    },
+    "separator": " "
   },
   "modules": [
-    "break",
-    "title",
     {
-      "type": "os",
-      "key": "os    ",
-      "keyColor": "33", // = color3
+      "key": "{#38;5;153} {#38;5;1}{icon}",
+      "type": "kernel"
     },
     {
-      "type": "kernel",
-      "key": "kernel",
-      "keyColor": "33",
+      "key": "{#38;5;153} {#38;5;2}Shell {#keys}",
+      "type": "shell"
     },
     {
-      "type": "host",
-      "format": "{5} {1}",
-      "key": "host  ",
-      "keyColor": "33",
+      "key": "{#38;5;153} {#38;5;3}Disk {#keys}",
+      "type": "disk",
+      "format": "{1} | {2}"
     },
     {
-      "type": "packages",
-      "format": "{} (pacman)",
-      "key": "pkgs  ",
-      "keyColor": "33",
+      "key": "{#38;5;4} Packages {#keys}",
+      "type": "packages"
     },
     {
-      "type": "uptime",
-      "format": "{2}h {3}m",
-      "key": "uptime",
-      "keyColor": "33",
+      "key": "{#38;5;153} {#38;5;5}{icon}",
+      "type": "uptime"
     },
     {
-      "type": "memory",
-      "key": "memory",
-      "keyColor": "33",
+      "key": "{#38;5;153} {#38;5;6}Days {#keys}",
+      "type": "command",
+      "text": "echo $(( ($(date +%s) - $(stat -c %W /)) / 86400 ))"
     },
-    "break",
+    // {
+    //   "type": "custom",
+    // "key": "{#38;5;153}├────────────┤"
+    // },
   ]
 }

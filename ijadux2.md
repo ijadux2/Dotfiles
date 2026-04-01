@@ -7,16 +7,116 @@ tags: [programming, passion]
 > [!important] todo files
 > [Todo](./todo.md)
 
+## Systems Programming Roadmap: 2025 - 2030
+
+This roadmap covers the transition from traditional systems programming to the
+AI-native, safety-first future of operating systems.
+
+---
+
+## Phase 1: The Hardware & Memory Foundation
+
+_Before picking a language, you must understand the "Metal"._
+
+- **Computer Architecture:** Understand the CPU (Registers, ALU), RAM, and the
+  Stack vs. Heap.
+- **Operating System Basics:** Learn about Kernels, User Space vs. Kernel Space
+  , and System Calls (syscalls).
+- **The "C" Mental Model:** Spend 4 weeks with **C**.
+  - **Focus:** Pointers, Manual Memory Management (`malloc`, `free`), and Structs.
+  - **Goal:** Build a simple Linked List or a Command-Line Shell.
+
+---
+
+## Phase 2: The Modern Standard (Safety & Scale)
+
+_How industry-grade systems are built today._
+
+### 🦀 Rust (The Safety King)
+
+- **Concepts:** Ownership, Borrowing, and Lifetimes.
+- **Why:** This is how you write code that doesn't crash or get hacked.
+- **Project:** Build a multi-threaded web server or a small "toy" OS kernel.
+
+### ⚙️ C++ (The Performance Heavyweight)
+
+- **Concepts:** RAII, Templates, and the Standard Template Library (STL).
+- **Why:** Essential for game engines (Unreal), browsers (Chrome), and legacy systems.
+
+---
+
+## Phase 3: The Next-Gen Disruptors
+
+_The future of lean and AI-integrated systems._
+
+### ⚡ Zig (The "Modern C")
+
+- **Focus:** `comptime` (Code execution at compile time) and zero-hidden allocations.
+- **Why:** It is simpler than C++ and more "manual" than Rust. Perfect for when
+  you want total control without the headache.
+- **Project:** Rewrite a C utility (like `ls` or `cat`) in Zig.
+
+### 🔥 Mojo (The AI Systems Specialist)
+
+- **Focus:** SIMD (Single Instruction, Multiple Data) and hardware-level tiling.
+- **Why:** If you want to build the OS components that handle AI/Machine
+  Learning tasks.
+- **Project:** Optimize a Python math heavy-loop using Mojo kernels.
+
+---
+
+## Phase 4: Specialization Tracks
+
+_Choose your path based on interest._
+
+| Track           | Key Technologies      | Goal                                  |
+| :-------------- | :-------------------- | :------------------------------------ |
+| **Kernel Dev**  | C, Zig, Assembly      | Writing Drivers or OS Kernels         |
+| **Cloud/Infra** | Rust, Go, Linux       | Building Databases and Virtualization |
+| **AI Systems**  | Mojo, C++, CUDA       | Building the engines that run LLMs    |
+| **Embedded**    | C, Rust (No_Std), Zig | Programming Microchips and IoT        |
+
+---
+
+## Phase 5: Deep Dive Topics
+
+_To be a "Senior" Systems Programmer._
+
+- **Concurrency:** Shared memory, Mutexes, and Atomics.
+- **Compilers:** Learn how code turns into Machine Instructions (LLVM/Clang).
+- **Security:** Understanding Buffer Overflows and Post-Quantum Cryptography.
+- **Networking:** Implementing TCP/IP stacks from scratch.
+
+---
+
+> "A systems programmer is someone who cares about what happens when the code
+> leaves the editor and hits the silicon."
+
+## bhu
+
+- login website and admit card
+
+<https://bhuschool1.ucanapply.com/univer/public/dashboard?app_id=UElZMDAwMDA4Nw==>
+
 ## Browser Links
 
-- <https://www.snapchat.com/web>
 - <https://www.youtube.com>
-- <https://www.instagram.com/>
 - <https://chatgpt.com/>
 - <https://gemini.google.com/app>
-- <https://www.lazyvim.org/>
 - <https://duck.ai/>
 - <https://github.com/ijadux2>
+- headset: <https://www.flipkart.com/ptron-studio-xtreme-w-70hrs-playtime-ai-enc-calls-pristine-sound-rgb-lights-btv5-4-bluetooth-wired/p/itmcf596809be8af?pid=ACCHJJVQZYHXJTEZ&lid=LSTACCHJJVQZYHXJTEZSABHED&hl_lid=&marketplace=FLIPKART&fm=eyJ3dHAiOiJyZWNvIiwicHJwdCI6InBwIiwibWlkIjoicHJvZHVjdFJlY29tbWVuZGF0aW9uL2FzcGVjdFNpbWlsYXIifQ%3D%3D&pageUID=1774354268096>
+
+## Startup
+
+- <https://startup-olive-nu.vercel.app/>
+- <https://vercel.com/ijadux2s-projects>
+- scripts -> markdown
+
+## Nixos
+
+- nix package manager
+- nix lang
 
 ## 🚀 Programming & Documentation
 
@@ -33,6 +133,7 @@ tags: [programming, passion]
 
 ## Automation and Devops
 
+> nix
 > python
 > go
 > javascript
