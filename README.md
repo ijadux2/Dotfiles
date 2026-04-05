@@ -20,6 +20,11 @@
 > [!IMPORTANT]
 > use nerdfonts **Jetbrains** and **zed**
 
+## Tmux
+
+- Tpm
+- theme catppuccin themes
+
 ## nvim
 
 - based on [sharingan.nvim](https://github.com/ijadux2/Sharingan.nvim)
